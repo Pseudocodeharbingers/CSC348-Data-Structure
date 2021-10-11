@@ -8,6 +8,7 @@ Import file to BlueJ IDE's and Run HotelApp class to see full demo
 **Admin Password: 123**
 
 1. Open Package file -> Run void main 
+
 ![Picture1](https://user-images.githubusercontent.com/91973389/136732297-fdeddd51-a06a-4e3d-8dcd-9af0a66b3d67.png)
 
 2. Demo Examples
