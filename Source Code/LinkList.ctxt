@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=LinkList
+comment1.params=
+comment1.target=LinkList()
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment3.params=insertItem
+comment3.target=void\ insertAtFront(Customer)
+comment4.params=insertItem
+comment4.target=void\ insertAtBack(Customer)
+comment5.params=
+comment5.target=Customer\ removeFromFront()
+comment6.params=
+comment6.target=Customer\ removeFromBack()
+comment7.params=
+comment7.target=Customer\ getFirst()
+comment8.params=
+comment8.target=Customer\ getNext()
+numComments=9

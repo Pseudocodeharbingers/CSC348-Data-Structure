@@ -1,0 +1,53 @@
+
+/**
+ * Write a description of class HotelAdmin here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+
+public class HotelAdmin extends Hotel
+{
+    private String id;
+    private String pass;
+   
+    public HotelAdmin()
+    {
+        super();
+        id = null;
+        pass = null;     
+       
+    }
+    
+    public HotelAdmin(String n,String ic,String i)
+    {
+        super(n,i);
+        id = i;
+     
+    }
+    
+    public HotelAdmin(String p)
+    {
+        pass = p;
+    }
+    
+    public String getName()
+    {  
+        return name;     
+    }
+    public String getIc()
+    {  
+        return ic;
+    }
+    public String getId()
+    {
+        return id;
+    }
+    public String getpass()
+    {
+        return pass;
+    }
+    
+ 
+}
+

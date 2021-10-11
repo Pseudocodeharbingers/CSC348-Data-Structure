@@ -1,0 +1,44 @@
+public void countBook()
+{
+}
+
+private int countB(TreeNode node)
+{
+    if(node == null)
+       return 0;
+       
+    else    
+    if(note.data.getYear() == 2005)
+}
+
+public void searchBook(String title)
+{
+    searchB(root,title);
+}
+
+private void searchB(TreeNode node, String t)
+{
+    if(node == null)
+       return; //void data type
+       
+   if(node.data.getTitle().equalsIgnoreCase(t))
+      {
+          System.out.print(node.data.toString();
+          searchB(node.left,t);
+          searchB(node.right,t);
+      }
+}
+
+public double calcTotalPrice()
+{
+    return calcAllPrice(root);
+}
+
+private double calcAllPrice(TreeNode node)
+{ 
+   if(node == null)
+      return 0.0; //double data type
+   else
+    return node.data.getPrice()+calcAllPrice(node.left)+calcAllPrice(node.right);
+}
+

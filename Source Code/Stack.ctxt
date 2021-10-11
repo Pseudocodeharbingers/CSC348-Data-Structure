@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Stack
+comment1.params=
+comment1.target=Stack()
+comment2.params=obj
+comment2.target=void\ push(Customer)
+comment3.params=
+comment3.target=Hotel\ pop()
+numComments=4

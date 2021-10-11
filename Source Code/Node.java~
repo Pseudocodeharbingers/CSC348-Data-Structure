@@ -1,0 +1,19 @@
+
+/**
+ * Write a description of class Node here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+
+public class Node
+{
+   public Customer data; //data
+   public Node next; //reference to next Node
+   
+   public Node(Customer d) //constructor
+   {
+       data = d;
+   }
+}
+

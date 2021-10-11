@@ -1,0 +1,12 @@
+
+public class Stack extends LinkList
+{
+   public Stack(){ }
+   public void push(Customer obj)
+   {insertAtFront(obj); }
+    public Hotel pop()
+   { return removeFromFront(); }
+  
+   
+}
+
